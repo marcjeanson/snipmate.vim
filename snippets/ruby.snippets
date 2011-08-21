@@ -516,8 +516,14 @@ snippet tas
 
 # RSpec
 #==========================
+snippet rsh
+	require 'spec_helper'
 snippet con
 	context "${1:context}" do
+		${2}
+	end
+snippet des
+	describe ${1:description} do
 		${2}
 	end
 snippet desc
