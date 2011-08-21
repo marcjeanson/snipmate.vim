@@ -555,6 +555,17 @@ snippet .sh
 snippet .sdn
 	.should_not
 
-# rails snippets
+# Capybara
+#==========================
+snippet feature
+	feature "${1}", %q{
+		${2}
+		${3}
+		${4}
+	} do
+	
+	
+# Rails
+#==========================
 snippet bt
 	belongs_to :${1:model_name}
